@@ -6,8 +6,6 @@ line_count = 0
 dir_path = os.getcwd() + "/CoverageData"
 print(dir_path)
 
-#O(n^2) run time, can we optimize this?
-
 for path in os.listdir(dir_path):
     if os.path.isfile(os.path.join(dir_path, path)):
         file_count += 1
